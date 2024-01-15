@@ -1,0 +1,30 @@
+body{
+  background-color: rgb(10, 187, 102);
+}
+
+.submit{
+  display: flex;
+  align-items: center;
+     justify-content: center;
+     margin: 10px 5px;
+     padding: 15px;
+     background-color: rgb(11, 109, 109);
+     color: white;
+     font-size: 23px;
+     text-transform: capitalize;
+     cursor: pointer;
+     outline: none;
+     border: none;
+     transition: all .4s;
+     border-radius: 10px;
+     transition: all .4s;
+     margin-bottom: 20px;
+}
+.submit:hover{
+  background-color: rgb(33, 20, 20);
+  color: white;
+}
+.gray{
+  background-color: rgb(33, 20, 20);
+  color: white;
+}
